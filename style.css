@@ -1,5 +1,47 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif, Arialf;
+    font-family: 'Open Sans', sans-serif, Arial;
+    color: white;
   }
+
+nav,
+nav * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#atif-uddin {
+    width: 40%;
+    margin: 10px;
+    justify-content: left;
+}
+
+nav {
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    background-color: #6A6A6A;
+    color: white;
+}
+
+.nav-links {
+    width: 60%;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #13E1BB;
+}
+
+
+  
+   
