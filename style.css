@@ -2,12 +2,16 @@
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif, Arial;
-    color: black;
+    color: white;
 }
 
 body {
     background-color: #DADADA;
+    margin: 0;
+    padding: 0;
 }
+
+
 
 nav {
     font-size: 25px;
@@ -49,8 +53,8 @@ nav {
     background-color: #13E1BB;
     border: none;
     outline: none;
-    border-radius: 5px;
-    padding: 5px 10px;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
     cursor: pointer;
     transition:all 200ms ease-in;
 }
@@ -58,6 +62,70 @@ nav {
 .get-in-touch:hover {
     background-color: #1AD7EC;
 }
+
+.intro {
+    background-color: #6A6A6A;
+    width: auto;
+    height: 100%;
+    padding: 100px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+
+.intro-left {
+    width: 70%;
+    padding: 50px;
+    text-align: center;
+    font-size: 30px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.intro-right {
+    padding: 50px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.intro-image {
+    height: auto;
+    width: 350px;
+    display: flex;
+    border-radius: 0.5rem;
+}
+
+.projects-button {
+    font-family: 'Open Sans', sans-serif, Arial;
+    font-size: 25px;
+    background-color: #13E1BB;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition:all 200ms ease-in;
+}
+
+.projects-button:hover {
+    background-color: #1AD7EC;
+}
+
+
+
+
+/*  */
 
 
 
