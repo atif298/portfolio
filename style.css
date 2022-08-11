@@ -171,10 +171,14 @@ nav {
   align-items: center;
 }
 
+.projects {
+  background-color: #6A6A6A;
+}
 .projects__header {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 30px;
 }
 .projects__header h1 {
   color: black;

@@ -196,11 +196,13 @@ nav {
 // My Projects Section
 
 .projects {
+    background-color: $grey;
 
     &__header {
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 30px;
     }
     
     &__header h1 {
