@@ -42,7 +42,7 @@ nav {
 }
 
 .nav-item a:hover {
-  color: #13E1BB;
+  color: #09d3ae;
   transition: all 200ms ease-in;
 }
 
@@ -54,7 +54,7 @@ nav {
 .get-in-touch {
   font-family: "Open Sans", sans-serif, Arial;
   font-size: 20px;
-  background-color: #13E1BB;
+  background-color: #28bfcf;
   border: none;
   outline: none;
   border-radius: 0.5rem;
@@ -64,7 +64,7 @@ nav {
 }
 
 .get-in-touch:hover {
-  background-color: #13E1BB;
+  background-color: #09d3ae;
 }
 
 .intro {
@@ -111,7 +111,7 @@ nav {
 .intro .projects__button {
   font-family: "Open Sans", sans-serif, Arial;
   font-size: 25px;
-  background-color: #13E1BB;
+  background-color: #28bfcf;
   border: none;
   outline: none;
   border-radius: 0.5rem;
@@ -120,7 +120,7 @@ nav {
   transition: all 200ms ease-in;
 }
 .intro .projects__button:hover {
-  background-color: #13E1BB;
+  background-color: #09d3ae;
 }
 
 .skills {
@@ -144,6 +144,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 80px;
 }
 .skills__header h1 {
   color: black;
@@ -164,8 +165,87 @@ nav {
   padding: 50px;
 }
 .skills__img {
-  padding: 30px;
+  padding-bottom: 80px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.projects__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projects__header h1 {
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+}
+.projects__container {
+  border: 2px solid red;
+  height: 100%;
+  width: 100%;
+}
+.projects__card {
+  border: 2px solid green;
+  border-radius: 40px;
+  background-color: #343434;
+  height: auto;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.projects__card h2 {
+  width: 300px;
+  height: auto;
+  padding: 5% 10%;
+  padding-bottom: 0%;
+}
+.projects__card p {
+  height: auto;
+  padding: 5% 10%;
+  padding-bottom: 10%;
+}
+.projects__img {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom: 10px solid #FFFF;
+  aspect-ratio: 1;
+  width: 100%;
+}
+.projects__button {
+  width: 100%;
+  padding-bottom: 5%;
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.projects__button__code {
+  background-color: #28bfcf;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 200ms ease-in;
+}
+.projects__button__code:hover {
+  background-color: #09d3ae;
+}
+.projects__button__preview {
+  background-color: #4D8BFF;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 200ms ease-in;
+}
+.projects__button__preview:hover {
+  background-color: #09d3ae;
 }
