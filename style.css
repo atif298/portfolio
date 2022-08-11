@@ -172,22 +172,21 @@ nav {
 }
 
 .projects {
-  background-color: #6A6A6A;
+  background-color: #004f63;
 }
 .projects__header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px;
 }
 .projects__header h1 {
-  color: black;
+  color: white;
   font-size: 40px;
   text-align: center;
   margin: 0;
+  padding: 50px;
 }
 .projects__container {
-  border: 2px solid red;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -198,7 +197,6 @@ nav {
   gap: 30px;
 }
 .projects__card {
-  border: 2px solid green;
   border-radius: 40px;
   background-color: #343434;
   height: auto;
@@ -207,6 +205,11 @@ nav {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out;
+}
+.projects__card:hover {
+  opacity: 1;
 }
 .projects__card h2 {
   width: 300px;

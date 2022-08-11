@@ -196,24 +196,23 @@ nav {
 // My Projects Section
 
 .projects {
-    background-color: $grey;
+    background-color: $dark-green;
 
     &__header {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 30px;
     }
     
     &__header h1 {
-            color: black;
+            color: white;
             font-size: 40px;
             text-align: center;
             margin: 0;
+            padding: 50px;
     }
 
     &__container {
-        border: 2px solid red;
         // height: 100%;
         // width: 100%;
         display: flex;
@@ -226,7 +225,6 @@ nav {
         gap: 30px;
     }
     &__card {
-        border: 2px solid green;
         border-radius: 40px;
         background-color: $dark-grey;
         height: auto;
@@ -235,6 +233,12 @@ nav {
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
+        opacity: 0.5;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    &__card:hover {
+        opacity: 1;
     }
 
     &__card h2 {
