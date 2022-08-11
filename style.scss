@@ -1,9 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Open Sans', sans-serif, Arial;
-    color: white;
-}
+@use 'reset';
 
 body {
     display: flex;
