@@ -136,6 +136,8 @@ nav {
     background-color: #1AD7EC;
 }
 
+// Technical Skills Section
+
 .skills {  
     color: black;
     display: grid;
@@ -146,48 +148,50 @@ nav {
       "skills__header skills__header skills__header skills__header skills__header"
       "skills__text skills__text skills__text skills__text skills__text"
       "skills__img skills__img skills__img skills__img skills__img";
-  }
+
   
-  .skills__header { grid-area: skills__header; }
-  
-  .skills__text { grid-area: skills__text; }
-  
-  .skills__img { grid-area: skills__img; }
+    &__header { grid-area: skills__header; }
+
+    &__text { grid-area: skills__text; }
+
+    &__img { grid-area: skills__img; }
   
 
 
-  .skills__header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+    &__header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.skills__header h1{
-    color: black;
-    font-size: 40px;
-    text-align: center;
-    margin: 0;
+    &__header h1{
+        color: black;
+        font-size: 40px;
+        text-align: center;
+        margin: 0;
+    }
+
+    &__text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__text p{
+        color: black;
+        font-size: 20px;
+        text-align: center;
+        margin: 0;
+        padding: 50px;
+    }
+
+    &__img {
+        padding: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
 }
-
-.skills__text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-.skills__text p{
-    color: black;
-    font-size: 20px;
-    text-align: center;
-    margin: 0;
-    padding: 50px;
-}
-
-.skills__img {
-    padding: 30px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
 
   /* ________ */
