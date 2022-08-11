@@ -1,13 +1,13 @@
-@use 'variables';
+@import "./variables";
 
-@use 'reset';
+@import "./reset";
 
 body {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background-color: $off-white;
+    // background-color: $off-white;
     margin: 0;
     padding: 0;
 }
