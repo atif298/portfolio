@@ -77,8 +77,7 @@ nav {
   align-items: center;
   align-content: space-around;
 }
-
-.intro-left {
+.intro__left {
   width: 50%;
   padding: 40px;
   margin: auto;
@@ -90,12 +89,10 @@ nav {
   align-items: center;
   gap: 50px;
 }
-
-.intro-left p {
+.intro__left p {
   font-size: 25px;
 }
-
-.intro-right {
+.intro__right {
   padding: 50px;
   margin: auto;
   width: 50%;
@@ -106,14 +103,12 @@ nav {
   align-items: center;
   gap: 50px;
 }
-
-.intro-image {
+.intro__image {
   height: auto;
   width: 350px;
   border-radius: 0.5rem;
 }
-
-.projects-button {
+.intro .projects__button {
   font-family: "Open Sans", sans-serif, Arial;
   font-size: 25px;
   background-color: #13E1BB;
@@ -124,8 +119,7 @@ nav {
   cursor: pointer;
   transition: all 200ms ease-in;
 }
-
-.projects-button:hover {
+.intro .projects__button:hover {
   background-color: #1AD7EC;
 }
 
