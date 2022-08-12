@@ -70,9 +70,10 @@ nav {
 //Intro Section
 
 .intro {
+    border: 1px solid blue;
     background-color: $grey;
-    width: 100%;
-    height: 100%;
+    // width: 100%;
+    // height: 100%;
     padding: 50px 50px;
 
     display: flex;
@@ -81,6 +82,7 @@ nav {
     align-content: space-around;
 
     &__left {
+        border: 1px solid red;
         width: 50%;
         padding: 40px;
         margin:auto;
@@ -99,24 +101,22 @@ nav {
     }
 
     &__right {
-        padding: 50px;
-        margin: auto;
+        border: 1px solid yellow;
         width: 50%;
         height: auto;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        gap: 50px;
     }
 
-    &__image {
+    &__img {
+        border-radius: 10%;
+        width: 100%;
         height: auto;
-        width: 350px;
-        border-radius: 0.5rem;
     }
 
-    .projects__button {
+    &__button {
         font-family: 'Open Sans', sans-serif, Arial;
         font-size: 25px;
         background-color: $blue;
@@ -128,7 +128,7 @@ nav {
         transition:all 200ms ease-in;
     }
 
-    .projects__button:hover {
+    &__button:hover {
         background-color: $light-blue;
     }
 
