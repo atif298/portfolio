@@ -261,3 +261,41 @@ nav {
 .projects__button__preview:hover {
   background-color: #09d3ae;
 }
+
+.about {
+  background-color: #DADADA;
+}
+.about__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about__header h1 {
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+  padding: 50px;
+}
+.about__container {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-around;
+  padding: 30px;
+  gap: 30px;
+}
+.about__text {
+  border: 1px solid green;
+  width: 40%;
+  font-size: 25px;
+  color: #004f63;
+}
+.about__img {
+  border: 1px solid blue;
+  border-radius: 10%;
+  width: 40%;
+  height: auto;
+}
