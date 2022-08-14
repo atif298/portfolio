@@ -135,9 +135,10 @@ nav {
 
 .skills {  
     color: $black;
+    background-color: $light-blue;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1.5fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr;
     gap: 10px 10px;
     grid-template-areas:
       "skills__header skills__header skills__header skills__header skills__header"
@@ -193,7 +194,7 @@ nav {
 // My Projects Section
 
 .projects {
-    background-color: $dark-green;
+    background-color: $off-white;
 
     &__header {
         display: flex;
@@ -202,7 +203,7 @@ nav {
     }
     
     &__header h1 {
-            color: white;
+            color: $dark-green;
             font-size: 40px;
             text-align: center;
             margin: 0;
@@ -301,7 +302,7 @@ nav {
 // About me Section
 
 .about {
-    background-color: $off-white;
+    background-color: $dark-green;
 
     &__header {
         display: flex;
@@ -310,7 +311,7 @@ nav {
     }
     
     &__header h1 {
-            color: black;
+            color: white;
             font-size: 40px;
             text-align: center;
             margin: 0;
@@ -327,13 +328,14 @@ nav {
         align-content: space-around;
         // flex-wrap: wrap;
         padding: 30px;
+        padding-bottom: 50px;
         gap: 30px;
     }
 
     &__text {
         width: 40%;
         font-size: 25px;
-        color: rgb(0, 79, 99);;
+        color: white;
     }
 
     &__img {

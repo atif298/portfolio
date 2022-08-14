@@ -120,9 +120,10 @@ nav {
 
 .skills {
   color: #0000;
+  background-color: #09d3ae;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1.5fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr 1fr;
   gap: 10px 10px;
   grid-template-areas: "skills__header skills__header skills__header skills__header skills__header" "skills__text skills__text skills__text skills__text skills__text" "skills__img skills__img skills__img skills__img skills__img";
 }
@@ -167,7 +168,7 @@ nav {
 }
 
 .projects {
-  background-color: #004f63;
+  background-color: #DADADA;
 }
 .projects__header {
   display: flex;
@@ -175,7 +176,7 @@ nav {
   align-items: center;
 }
 .projects__header h1 {
-  color: white;
+  color: #004f63;
   font-size: 40px;
   text-align: center;
   margin: 0;
@@ -258,7 +259,7 @@ nav {
 }
 
 .about {
-  background-color: #DADADA;
+  background-color: #004f63;
 }
 .about__header {
   display: flex;
@@ -266,7 +267,7 @@ nav {
   align-items: center;
 }
 .about__header h1 {
-  color: black;
+  color: white;
   font-size: 40px;
   text-align: center;
   margin: 0;
@@ -279,12 +280,13 @@ nav {
   align-items: center;
   align-content: space-around;
   padding: 30px;
+  padding-bottom: 50px;
   gap: 30px;
 }
 .about__text {
   width: 40%;
   font-size: 25px;
-  color: #004f63;
+  color: white;
 }
 .about__img {
   border-radius: 10%;
