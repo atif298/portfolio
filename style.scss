@@ -224,7 +224,7 @@ nav {
         gap: 30px;
     }
     &__card {
-        border-radius: 40px;
+        border-radius: 20px;
         background-color: $dark-grey;
         height: auto;
         width: 300px;
@@ -254,8 +254,8 @@ nav {
     }
 
     &__img {
-        border-top-left-radius: 40px;
-        border-top-right-radius: 40px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
         border-bottom: 10px solid $white;
         aspect-ratio: 1;
         width: 100%;
