@@ -340,4 +340,20 @@ body {
   .about__img {
     width: 80%;
   }
+
+  .footer__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    padding: 5%;
+  }
+  .footer__left-side {
+    text-align: center;
+  }
+  .footer__right-side {
+    justify-content: center;
+  }
 }
