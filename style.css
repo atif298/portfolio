@@ -68,10 +68,6 @@ nav {
   background-color: #09d3ae;
 }
 
-#nav-menu label, #burger {
-  display: none;
-}
-
 .intro {
   background-color: #6A6A6A;
   padding: 50px 50px;
