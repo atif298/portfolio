@@ -14,61 +14,60 @@ body {
 
 //Nav bar Section (with BEM but without nesting)
 
-nav {
+.nav {
     width: 100%;
     height: 100%;
     font-size: 25px;
+
+    &__list {
+        background-color: $dark-grey;
+        margin:0;
+        padding: 10px 0;
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        list-style: none;
+        margin-right: 30px;
+
+        a {
+            text-decoration: none;
+            color: $white;
+        }
+
+        a:hover {
+            color:$light-blue;
+            transition:all 200ms ease-in;
+        }
+    
+        &:first-child {
+            margin-right: auto;
+            margin-left: 30px;
+        }
+    }
+
+
+    &__button {
+        font-family: 'Open Sans', sans-serif, Arial;
+        font-size: 20px;
+        background-color: $blue;
+        margin: 15px;
+        border: none;
+        outline: none;
+        border-radius: 0.5rem;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+        transition:all 200ms ease-in;
+    }
+
+    &__button:hover {
+        background-color: $light-blue;
+    }
 }
-
-.nav__list {
-    background-color: $dark-grey;
-    margin:0;
-    padding: 10px 0;
-
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.nav__item {
-    list-style: none;
-    margin-right: 30px;
-}
-
-.nav__item a {
-    text-decoration: none;
-    color: $white;
-}
-
-
-.nav__item a:hover {
-    color:$light-blue;
-    transition:all 200ms ease-in;
-}
-
-.nav__item:first-child {
-    margin-right: auto;
-    margin-left: 30px;
-}
-
-.nav__button {
-    font-family: 'Open Sans', sans-serif, Arial;
-    font-size: 20px;
-    background-color: $blue;
-    margin: 15px;
-    border: none;
-    outline: none;
-    border-radius: 0.5rem;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    transition:all 200ms ease-in;
-}
-
-.nav__button:hover {
-    background-color: $light-blue;
-}
-
 //burgermenu
 // #nav-menu label, #burger {
 //     display: none;
